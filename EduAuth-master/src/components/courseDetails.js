@@ -7,7 +7,7 @@ const CourseDetails = ({ course }) => {
   };
 
   return (
-    <div classname="contianer">
+    <div className="contianer">
       <div className="searchItem">
         <img src={course.imageUrl} className="siImg" alt="courseImage" />
         <div className="siDesc">

@@ -26,7 +26,7 @@ const Courses = () => {
         <>
         <div className="main">
              <Sidebar />
-            <div classname = "contianer">
+            <div className = "contianer">
                 {courses && courses.map((course) => (
                     <CourseDetails key = {course._id} course={course}/>
                 ))}
